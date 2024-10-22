@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Input Tags</title>
+    </head>
+    <body>
+        <form action="submit.php" method="post">
+            
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for = "gender">Gender</label>
+            <br>
+            <label for = "male">Male</label>
+             <input type = "radio" id = "male" name = "gender" value = "male">
+              <label for = "female">Female</label>
+              <input type = "radio" id = "female" name = "gender" value = "female">
+              <br>
+              <label for = "class">Class</label>
+              <select name ="class" id = "class"> 
+                <option value = "10">10</option>
+                <option value = "11">11</option>
+                <option value = "12">12</option>
+              </select>
+              <br>
+              <label for = "Hobbies">Hobbies:</label>
+              <br>
+              <label for = "Football">Football</label>
+              <input type = "checkbox" id = "Football" name = "hobbies" value = "Football">
+              <label for = "Tennis">Tennis</label>
+              <input type = "checkbox" id = "Tennis" name = "hobbies" value = "Tennis">
+              <label for = "Cricket">Cricket</label>
+              <input type = "checkbox" id = "Cricket" name  = "hobbies" value = "Cricket">
+              <br>
+              <label for = "comments">Comments</label>
+              <br>
+              <textarea name = "comments" id = "comments" cols = "30" rows = "10"></textarea>
+              <br>
+              <input type="submit" value="Submit">
+
+
+        </form>
+    </body>
+</html>
